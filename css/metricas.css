@@ -1,0 +1,66 @@
+.metricas{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-inter);
+    margin: 0 4rem 6rem;
+    gap: 2rem;
+    justify-content: space-between;
+
+
+
+
+}
+
+.metricas-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.metricas-titulo{
+    font-size: 3.75rem;
+    color: var(--vermelho);
+    font-weight: 600;
+    
+}
+
+.metricas-t2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--preto);
+}
+
+.metricas-texto{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--cinza-claro);
+}
+
+@media screen and (max-width: 1024px) {
+    .metricas-container{
+        flex: 1 1 calc(50% - 1rem); 
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .metricas{
+            
+            display: flex;
+            flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .metricas{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .metricas-container{
+        width: 70vw;
+    }
+    
+}

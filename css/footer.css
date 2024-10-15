@@ -1,0 +1,93 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem;
+    background: #F9FAFB;
+
+
+}
+
+.footer-titulo{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--preto);
+    text-align: center;
+}
+
+.footer-texto{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.email-footer{
+    width: 20.625rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+}
+
+
+
+
+
+
+.btn-footer{
+    width: 7.25rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 1px solid var(--vermelho);
+    background: var(--vermelho);
+    color: #FFFFFF;
+    
+}
+
+.btn-footer:hover{
+    font-weight: 800;
+    background: #f50303;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 576px) {
+    footer{
+        padding: 2rem;
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .footer-titulo{
+
+        font-size: 1.5rem;
+
+    }
+
+    .email-footer{
+        width: 60vw;
+    }
+    
+    .btn-footer{
+        width: 25vw;
+        height: 3rem;
+
+        
+    }
+
+    .copy{
+        font-size: 0.8rem;
+        margin-top: 3rem;
+    }
+    
+}
+
+
+

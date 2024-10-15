@@ -1,0 +1,55 @@
+.vagas-abertas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-inter);  
+    gap: 2.5rem;
+
+}
+
+.vagas-titulo{
+    color:var(--vermelho);
+    background: #8E24240D;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+.vagas-t2{
+    color:var(--preto);
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+
+}
+
+.vagas-texto{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--cinza-claro);
+    text-align: center;
+}
+
+.vagas-img{
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 576px){
+    .vagas-abertas{
+        gap: 1.5rem;
+    
+    }
+
+    .vagas-texto{
+        padding: 0 1rem;
+    }
+
+    .vagas-img{
+        margin: 1rem 0;
+    }
+}

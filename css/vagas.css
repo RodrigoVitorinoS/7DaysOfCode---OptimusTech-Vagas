@@ -1,0 +1,58 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.vagas-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin: 5rem auto;
+}
+
+.vaga-area{
+    font-size: 1.25rem;
+    margin-top: 2rem ;
+    
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #EAECF0;
+    padding: 2rem 30rem 2rem 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.card-flex{
+    display: flex;
+    gap: 2rem;
+    color: var(--cinza-claro);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .card{
+        width: 70vw;
+        padding: 0;
+        padding: 2rem 3rem 2rem 1rem;
+
+    }
+
+    .vagas-conteiner{
+        gap: 1rem;
+    }
+
+
+    
+    
+}

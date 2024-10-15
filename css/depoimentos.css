@@ -1,0 +1,52 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 10rem;
+    padding: 2rem;
+    background: #C3191908;
+    border-radius: 16px;
+
+
+
+}
+
+.depoimentos-titulo{
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.depoimentos-texto{
+    color: var(--preto);
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.depoimentos-nome{
+    color: var(--preto);
+}
+
+.depoimentos-cargo{
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .depoimentos{
+
+        margin: 5rem 1rem;
+        padding: 2rem;
+        text-align: center;
+        gap: 1rem;
+    
+    
+    
+    }
+
+    .depoimentos-texto{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+}
